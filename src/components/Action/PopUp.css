@@ -1,0 +1,97 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.popup-inner {
+    margin-bottom: 14%;
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+    background-color: darkcyan;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(73, 243, 215);
+}
+
+.popup-inner .btnClose {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 7%;
+    padding: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    line-height: 80%;
+}
+  
+.popup-inner .btnClose:hover {
+    background-color: #bd2130;
+    transition: background-color 0.3s ease;
+}
+
+.btnAction {
+    border-collapse: collapse;
+    box-shadow: 0 0 8px rgb(73, 243, 215);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #8aa8bd;
+    height: 26px;
+}
+
+.popup-inner .btnAction {
+    width: 35%;
+    border: 2px solid black;
+    box-shadow: 0 0 2px rgb(73, 243, 215);
+}
+
+.popup-inner .btnAction:hover {
+    background-color: #5dbea3;
+    transition: background-color 0.3s ease;
+}
+
+.popup-inner .amount {
+    width: 40%;
+    border: 2px solid black;
+    box-shadow: 0 0 2px rgb(73, 243, 215);
+    border-radius: 5px;
+}
+
+.popup-inner .description {
+    margin-top: 5%;
+    margin-left: 5px;
+    width: 77%;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 2px rgb(73, 243, 215);
+    border-radius: 5px;
+}
+
+.error-message {
+    font-weight: bold;
+    margin-top: 10px;
+    animation: pulse .2s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    from {
+      color: white;
+    }
+    to {
+      color: red;
+    }
+  }

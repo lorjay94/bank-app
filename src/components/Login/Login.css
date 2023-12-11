@@ -1,0 +1,47 @@
+.login-container {
+    padding: 20px;
+    width: 250px;
+    height: 165px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 8px rgb(73, 243, 215);
+    border-image: linear darkcyan;
+  }
+  
+  .userpass-container {
+    margin-bottom: 15px;
+  }
+  
+  .btnLogin {
+    width: 60px;
+    margin-top: 10px;
+    box-shadow: 0 0 8px rgb(73, 243, 215);
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 25px;
+  }
+  
+  .btnLogin:hover {
+    background-color: #5dbea3;
+    transition: background-color 0.2s ease;
+  }
+  
+  input {
+    text-align: left;
+    margin-top: 5px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 0 0 2px rgb(73, 243, 215);
+    border-radius: 5px;
+    height: 20px;
+  }
+  
+  .login {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .error {
+    color: red;
+  }

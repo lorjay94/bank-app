@@ -1,0 +1,113 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  background-color: darkcyan;
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Inter';
+}
+
+label {
+  margin-right: 5px;
+}
+
+input {
+  margin-right: 5px;
+  width: 75%;
+  text-align: left;
+}
+
+.btnMain {
+  width: 8%;
+  margin-left: 5px;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgb(73, 243, 215);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #8aa8bd;
+}
+
+.btnMain:hover {
+  background-color: #5dbea3;
+  transition: background-color 0.2s ease;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: .75%;
+  margin-right: 17.5%;
+}
+
+.btnClearAll {
+  margin-top: 10px;
+  margin-left: 59.90%;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgb(73, 243, 215);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #8aa8bd;
+}
+
+.btnClearAll:hover {
+  background-color: #ad3814;
+  transition: background-color 0.2s ease;
+}
+
+.btnLogout {
+  margin-top: 15px;
+  margin-left: 59.90%;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgb(73, 243, 215);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #8aa8bd;
+  width: 5%;
+}
+
+.btnLogout:hover {
+  background-color: #5dbea3;
+  transition: background-color 0.2s ease;
+}
+
+.container {
+  width: 65%;
+  margin: 5px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgb(73, 243, 215);
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+.container th, .container td {
+  padding: 12px;
+  text-align: left;
+}
+
+.container th {
+  background-color: #8aa8bd;
+  color: white;
+}
+
+.container tr:not(:first-child) {
+  background-color: #ffffff;
+}
+
+.container td, .container th {
+  border: 1px solid #f0f0f0;
+}
+
+tbody{
+  background-color: #ffffff;
+}
+
+.description {
+  width: 10%;
+}
