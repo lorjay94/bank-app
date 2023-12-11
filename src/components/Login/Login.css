@@ -43,5 +43,15 @@
   }
   
   .error {
-    color: red;
+    font-weight: bold;
+    animation: pulse .2s infinite alternate;
+  }
+
+  @keyframes pulse {
+    from {
+      color: white;
+    }
+    to {
+      color: red;
+    }
   }
